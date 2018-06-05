@@ -10,13 +10,20 @@ Please keep reading and follow the steps bellow. :point_down:
 
 *NOTES!*
 
-1.You must know how to initialize a Django's proyect.
-2.You need to create a simple poll app into the proyect.
-3.You need to create the templates and static folder in your directory.
-4.Run the server inside the proyect's folder.
-5.I'm using the Bash Sheel in MacOS (use -git shell- on windows). :octocat:
-6.Remeber this is just an example not a tutorial, I'll hope you understand.
-7.You have the code, you can modify or see how all this work behind the scenes.
+1. You must know how to initialize a Django's proyect.
+2. You need to create a simple poll app into the proyect.
+3. You need to create the templates and static folder in your directory.
+4. Run the server inside the proyect's folder.
+5. I'm using the Bash Sheel in MacOS (use -git shell- on windows). :octocat:
+6. Remeber this is just an example not a tutorial, I'll hope you understand.
+7. You have the code, you can modify or see how all this work behind the scenes.
+
+*RECOMMENDATION*
+
+>I suggest to work in a virtual enviroment, remember: 
+
+```$~ python3 -m venv enviroment's_name```
+```$~ source enviroment's_name/bin/activate```
 
 *STEP 1*
 
