@@ -1,0 +1,47 @@
+{% extends "polls/base.html" %}
+
+{% load static %}
+{% block title %} Teaware/about {% endblock %}
+
+{% block content %}
+<div id = "first">
+ <div class = "grid-x align-center-middle">
+   <span class = "cherry">This is About </span></div>
+     <div class = "grid-x align-center-middle">
+       <input id = "but1" type="button" value = "Why?"/>
+       <input id = "but2" type="button" value = "What?"/>
+     </div>
+</div>
+{% endblock %}
+
+{% block init %}
+<style>
+  #begin
+  {
+    background-color: white;
+    height: 40vh;
+    width: 100%;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+  }
+</style>
+
+  <div id = "begin" class = "grid-x align-center-middle">
+    <p>This is another inherited text...</p>
+  </div>
+{% endblock %}
+
+{% block second %}
+
+<div id = "second">
+  <div class = "grid-x align-center-middle">
+    <span class = "align">Remember Follow Us!</span></div>
+      <div class = "grid-x align-center-middle">
+        <a id = "social2" href= "facebook.com"><img src = "{% static 'polls/images/face.png' %}" height="65" width="65" alt = "facebook"/></a>
+        <a id = "social" href="twitter.com"><img src = "{% static 'polls/images/twitter.png' %}" height="65" width="65" alt = "twitter"/></a>
+        <a id = "social" href="instagram.com"><img src = "{% static 'polls/images/insta.png' %}" height="65" width="65" alt = "insta"/></a>
+        <a id = "social" href="pinterest.com"><img src = "{% static 'polls/images/pin.png' %}" height="65" width="65" alt = "pinterest"/></a>
+      </div>
+</div>
+
+{% endblock %}

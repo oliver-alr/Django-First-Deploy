@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html class = "no-js" lang = "en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> {% block title %}{% endblock %}Teaware.com</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    {% load static %}
+    <link rel="stylesheet" href = "{% static 'polls/css/foundation.css' %}">
+    <link rel = "stylesheet" href="{% static 'polls/style.css' %}" type = "text/css"/>
+    <link rel = "icon" href="{% static 'polls/images/cup.ico' %}"/>
+
+  </head>
+  <body>
+      <div class = "heads">
+          <div id="navbar">
+            <a href = "{% url 'home' %}"><img id = "logo" src = "{% static 'polls/images/logo.png' %}" height="37" width="37" alt = "cup-logo"/></a>
+            <a id = "anchor" href="{% url 'about'%}">About</a>
+            <a id = "anchor" href="{% url 'news'%}">News</a>
+            <a id = "anchor" href="{% url 'register'%}">Register</a>
+          </div>
+      </div>
+
+      <div id = "first">
+         <div class = "grid-x align-center-middle">
+           <span class = "cherry">Join to our community</span></div>
+             <div class = "grid-x align-center-middle">
+               <input id = "but1" type="button" value = "Register"/>
+               <input id = "but2" type="button" value = "Recipes"/>
+             </div>
+      </div>
+
+      <div class = "setup">
+        <div class = "grid-x align-center-middle">
+          <span id = "look">What do you want for today's breakfast?</span>
+        </div>
+        <div class = "grid-x align-center-middle">
+          <a id = "elevatespe"><img  src="{% static 'polls/images/fruits.png' %}" height="80" width="80" alt = "fruits"/></a>
+            <a id = "elevate"><img src="{% static 'polls/images/spa.png' %}" height="80" width="80" alt = "spaguetti"/></a>
+             <a id = "elevate"><img src="{% static 'polls/images/salad.png' %}" height="80" width="80" alt = "salad"/></a>
+              <a id = "elevate" ><img src="{% static 'polls/images/tea.png' %}" height="80" width="80" alt = "tea"/></a>
+        </div>
+      </div>
+
+      <div id = "second">
+        <div class = "grid-x align-center-middle">
+          <span class = "align">Follow us and invite your friends</span></div>
+            <div class = "grid-x align-center-middle">
+              <a id = "social2" href= "facebook.com"><img src = "{% static 'polls/images/face.png' %}" height="65" width="65" alt = "facebook"/></a>
+              <a id = "social" href="twitter.com"><img src = "{% static 'polls/images/twitter.png' %}" height="65" width="65" alt = "twitter"/></a>
+              <a id = "social" href="instagram.com"><img src = "{% static 'polls/images/insta.png' %}" height="65" width="65" alt = "insta"/></a>
+              <a id = "social" href="pinterest.com"><img src = "{% static 'polls/images/pin.png' %}" height="65" width="65" alt = "pinterest"/></a>
+            </div>
+      </div>
+
+      <div id = "foots">
+        <div class = "grid-x align-center-middle">
+          <span id = "coffe">Backend Practice -- Home Page</span></div>
+          <small class = "grid-x align-center-middle"><span id = "coffe">All rights reserved 2018© </span></small>
+      </div>
+
+    <script src="{% static 'polls/js/vendor/jquery.js' %}"></script>
+    <script src="{% static 'polls/js/vendor/what-input.js' %}"></script>
+    <script src="{% static 'polls/js/vendor/foundation.js' %}"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script src = "{% static 'polls/index.js' %}" type="text/javascript"></script>
+  </body>
+</html>
