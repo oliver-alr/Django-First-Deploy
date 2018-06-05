@@ -32,7 +32,7 @@ Please keep reading and follow the steps bellow. :point_down:
 
 *STEP 2*
 
-> Go to this address 127.0.0.1:8000
+> Go to this address 127.0.0.1:8000/home/
 
 *STEP 3*
 
