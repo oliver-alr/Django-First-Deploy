@@ -1,5 +1,5 @@
 # Django Simple Frontend and Backend Deploy :rocket:
-### The most simplest example :+1:
+### The easier example :+1:
 
 
 >If you want to see a little example of how Django works this is a simple view for you.
@@ -36,7 +36,7 @@ Please keep reading and follow the steps bellow. :point_down:
 
 *STEP 3*
 
-Go through the web and look how frontend and backend work together.
+Go through the web and look how frontend and backend work together. :suspect:
 
 
 
