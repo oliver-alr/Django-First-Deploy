@@ -20,7 +20,8 @@ Please keep reading and follow the steps bellow. :point_down:
 
 *STEP 1*
 
-´´´$~ cd sprite; python manage.py runserver ´´´
+```$~ cd sprite; python manage.py runserver```
+
 
 *STEP 2*
 
